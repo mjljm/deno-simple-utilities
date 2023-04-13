@@ -1,0 +1,11 @@
+// Deno config used by all directories below this one
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.183.0/",
+    "thp/": "https://deno.land/x/"
+  },
+  "tasks": {
+    "test": "deno test tests/",
+    "doc": "deno doc mod.ts"
+  }
+}
